@@ -1,0 +1,166 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+.child4,
+.child5,
+.child6 {
+    text-align: center;
+}
+
+.child1,
+.child2,
+.child3 {
+    color: white;
+    background-color: black;
+}
+
+.child4 {
+    color: white;
+}
+
+.child6 .middle {
+    background-color: dodgerblue;
+}
+
+h5,
+.user-name,
+.email,
+.img-outer-div {
+    background-color: teal;
+}
+
+.img {
+    height: 21vh;
+    width: 13vw;
+    margin: auto;
+}
+
+hr {
+    height: 3px;
+    width: 100%;
+    margin: 5px;
+    padding: 2px;
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+
+li {
+    list-style: none;
+}
+
+.list,
+.list ul {
+    background-color: black;
+}
+
+.middle {
+    font-weight: 500;
+    background-color: green;
+}
+
+.parent3 {
+    color: rgba(79, 79, 79, 0.75);
+    background-color: rgb(245, 243, 243);
+}
+
+.footer-bottom {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.parent3 p{
+    text-align: justify;
+}
+
+/* xs screen */
+@media (min-width: 0px) and (max-width: 575.98px) {
+    .img {
+        height: 21vh;
+        width: 40vw;
+        margin: auto;
+    }
+    /* .parent3 .msg{
+        display: none;
+    } */
+    /* .parent3 p{
+        text-align: justify;
+    } */
+    /* .parent3 ul{
+        padding: 0px;
+        text-align: center;
+    } */
+    /* .parent3 .contact{
+        width: 100vw;
+    } */
+}
+
+/* sm screen */
+@media (min-width:576px) and (max-width: 767.98px) {
+    .img {
+        height: 26vh;
+        width: 35vw;
+        margin: auto;
+    }
+}
+
+/* md screen */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .img {
+        height: 30vh;
+        width: 30vw;
+        margin: auto;
+    }
+    
+    .company-name{
+        width: 100vw !important;
+    }
+    .contact{
+        width: 100vw !important;
+    }
+}
+
+/* lg screen */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .img {
+        height: 20vh;
+        width: 13vw;
+        margin: auto;
+    }
+    .company-name{
+        width: 20vw !important;
+    }
+    .contact{
+        width: 100vw !important;
+        justify-content: center !important;
+    }
+    .product{
+        width: 20vw !important;
+    }
+}
+
+/* xl screen */
+@media (width>= 1200px) {
+    .img {
+        height: 20vh;
+        width: 13vw;
+        margin: auto;
+    }
+    .company-name{
+        width: 20vw !important;
+    }
+    .contact{
+        width: 20vw !important;
+    }
+    .product{
+        width: 20vw !important;
+    }
+}
